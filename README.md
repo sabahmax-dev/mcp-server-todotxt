@@ -73,7 +73,7 @@ For quick installation, use the one-click installation button below
 
 1. Start the MCP server:
    ```bash
-   npm start
+   node dist/index.js
    ```
 
 2. Interact with the server using MCP-compliant clients or tools.
