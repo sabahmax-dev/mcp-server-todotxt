@@ -30,6 +30,7 @@
     "changelog": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s -r 0",
     "changelog:latest": "conventional-changelog -p conventionalcommits -r 1 > RELEASE_NOTES.md",
     "prepare": "npm run build",
+    "start": "node dist/index.js",
     "test": "vitest run",
     "watch": "tsc --watch"
   },
